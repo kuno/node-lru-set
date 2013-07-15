@@ -1,7 +1,7 @@
 {
   "name": "lru-set",
   "description": "Set implementation with lru feature for node",
-  "version": "0.1.0-dev",
+  "version": "0.1.0",
   "homepage": "https://github.com/kuno/node-lru-set",
   "author": {
     "name": "Guan Qing",

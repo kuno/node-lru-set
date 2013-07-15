@@ -24,6 +24,11 @@ set.len(); // 4
 //
 set.pop(); // 4
 set.len(); // back to 3
+
+set.remove(4);
+set.len(); // 3
+set.remove(3);
+set.len(); // now is 2
 ```
 
 ## Contributing

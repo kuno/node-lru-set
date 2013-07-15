@@ -42,5 +42,11 @@ describe('LRUSET', function() {
             set.contain(5).should.equal(true);
             set.contain(6).should.equal(false);
         });
+
+        it('should can remove item', function() {
+            set.contain(5).should.equal(true);
+            set.remove(5);
+            set.contain(5).should.equal(false);
+        });
     });
 });

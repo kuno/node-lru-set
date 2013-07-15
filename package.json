@@ -1,7 +1,7 @@
 {
   "name": "lru-set",
-  "description": "The best project ever.",
-  "version": "0.1.0",
+  "description": "Set implementation with lru feature for node",
+  "version": "0.1.0-dev",
   "homepage": "https://github.com/kuno/lru-set",
   "author": {
     "name": "Guan Qing",
@@ -25,9 +25,11 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "gurnt nodeunit"
+    "test": "./node_modules/.bin/mocha test/*.mocha.js"
   },
   "devDependencies": {
+    "mocha": "~1.12.0",
+    "should": "~1.2.2",
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.4.0",

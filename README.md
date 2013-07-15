@@ -1,21 +1,38 @@
-# lru-set [![Build Status](https://secure.travis-ci.org/kuno/lru-set.png?branch=master)](http://travis-ci.org/kuno/lru-set)
+# lru-set [![Build Status](https://secure.travis-ci.org/kuno/lru-set.png?branch=master)](http://travis-ci.org/kuno/node-lru-set)
 
-The best project ever.
+Set implementation with lur feature for node.
 
 ## Getting Started
 Install the module with: `npm install lru-set`
 
 ```javascript
-var lru_set = require('lru-set');
-lru_set.awesome(); // "awesome"
+var LRUSET = require('lru-set');
+
+var set = LRUSET(1, 2, 3);
+
+//
+set.len(); // 3
+set.contain(3); // true
+set.contain(4); // false
+
+//
+set.add(3);
+set.len(); // still 3
+set.add(4);
+set.len(); // 4
+
+//
+set.pop(); // 4
+set.len() ; // back to 3
 ```
 
+<!--
 ## Documentation
 _(Coming soon)_
 
 ## Examples
 _(Coming soon)_
-
+-->
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
@@ -23,5 +40,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2013 Guan Qing  
+Copyright (c) 2013 Guan Qing
 Licensed under the MIT license.

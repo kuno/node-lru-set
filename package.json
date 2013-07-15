@@ -2,22 +2,22 @@
   "name": "lru-set",
   "description": "Set implementation with lru feature for node",
   "version": "0.1.0-dev",
-  "homepage": "https://github.com/kuno/lru-set",
+  "homepage": "https://github.com/kuno/node-lru-set",
   "author": {
     "name": "Guan Qing",
     "email": "kuno.the.developer@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kuno/lru-set.git"
+    "url": "git://github.com/kuno/node-lru-set.git"
   },
   "bugs": {
-    "url": "https://github.com/kuno/lru-set/issues"
+    "url": "https://github.com/kuno/node-lru-set/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/kuno/lru-set/blob/master/LICENSE-MIT"
+      "url": "https://github.com/kuno/node-lru-set/blob/master/LICENSE-MIT"
     }
   ],
   "main": "lib/lru-set",
@@ -35,5 +35,5 @@
     "grunt-contrib-watch": "~0.4.0",
     "grunt-simple-mocha": "~0.4.0"
   },
-  "keywords": []
+  "keywords": ["lru", "set"]
 }

@@ -23,21 +23,15 @@ set.len(); // 4
 
 //
 set.pop(); // 4
-set.len() ; // back to 3
+set.len(); // back to 3
 ```
 
-<!--
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
--->
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+
+* _v0.1.0_,  2013/07/15
 
 ## License
 Copyright (c) 2013 Guan Qing
